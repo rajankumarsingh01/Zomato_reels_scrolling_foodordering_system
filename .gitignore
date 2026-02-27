@@ -1,0 +1,91 @@
+# =========================
+# Node Modules
+# =========================
+node_modules/
+*/node_modules/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Runtime Data
+# =========================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Build Folders
+# =========================
+build/
+dist/
+client/build/
+
+# =========================
+# Dependency Directories
+# =========================
+jspm_packages/
+
+# =========================
+# Coverage Directory
+# =========================
+coverage/
+
+# =========================
+# VS Code Files
+# =========================
+.vscode/
+.history/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# MongoDB Files (Local)
+# =========================
+data/
+*.mongodb
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Parcel / Vite / Next cache
+# =========================
+.cache/
+.parcel-cache/
+.next/
+.vite/
+
+# =========================
+# React specific
+# =========================
+client/node_modules/
+client/build/
+
+# =========================
+# Server specific
+# =========================
+server/node_modules/
